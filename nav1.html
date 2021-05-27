@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="nav1.css">
+    <link rel="stylesheet" href="nav1res.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- ------------------------------------------- NAVIGATION BAR START----------------------------------------------- -->
+
+    <nav class="navbar background v-down-resp" id="nav">
+
+        <div class="firstpart">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41iomySvcmL.png" alt="logo">
+            <h1>Stud<span style="color: rgb(39, 182, 39)">ify</span></h1>
+        </div>
+
+        <ul class="secoundpart" id="secoundparta">
+            <li class="secondpart-a"><a href="#Home" class="secondpart-a">Home</a></li>
+            <li class="secondpart-a"><a href="#Videos" class="secondpart-a">Videos</a></li>
+            <li class="secondpart-a"><a href="#Practice" class="secondpart-a">Practice</a></li>
+            <li class="secondpart-a"><a href="#More" class="secondpart-a">More<span
+                        style="color: rgb(241, 44, 44);">&#9660;</span></a>
+                <ul class="submenu1">
+                    <li><a href="#fun">fun</a></li>
+                    <li><a href="#motivation">Motivation</a></li>
+                    <li><a href="Library.html" href="library.css class=">E-Library</a></li>
+                    <li><a href="#Games">Games</a></li>
+
+                </ul>
+            </li>
+        </ul>
+
+        <div class="thirdpart">
+
+            <input type="text" name="search" autocomplete="off">
+            <button class="search">search</button>
+
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="forimage">
+        <img src="red1.png" alt="">
+    </div>
+
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, itaque quo soluta minus quam, iure numquam
+        tenetur dolorum, consequuntur quidem saepe fugiat natus sed magni. Quos qui nam placeat delectus, quis commodi
+        iure. Magni in corporis quis voluptatem quos reiciendis, ipsum sint assumenda? Mollitia ullam at consequuntur
+        aliquam, inventore repudiandae ratione labore soluta ea incidunt et facere. Facere, nesciunt! Quam optio, veniam
+        distinctio reprehenderit nobis nemo illum asperiores, quisquam animi facilis consectetur porro! Libero
+        asperiores eos laborum provident alias. Molestias id quo, perferendis non voluptatibus rem, minus voluptatum,
+        placeat quasi repellat natus! Quo ea quod illo id iusto suscipit quasi delectus! Cupiditate facilis vitae
+        possimus sed! Esse laborum ipsam laudantium consectetur itaque necessitatibus expedita odio suscipit molestiae
+        aliquam culpa voluptatem dicta perferendis distinctio, ab ea? Reiciendis vero reprehenderit aspernatur vitae
+        earum expedita aut suscipit deserunt quisquam maxime. Recusandae eos corporis qui assumenda minima accusamus
+        incidunt mollitia ratione culpa architecto quas porro quos natus ex, repudiandae similique labore eaque veniam
+        sunt, nam a. Fugit, beatae eos eligendi accusamus velit, enim deserunt modi sunt dolore dolorem libero
+        quibusdam. Doloribus iste nobis quasi! Mollitia ullam doloremque quae tempore deleniti quo rem autem quis
+        facere! Ab dolorem expedita similique, error magni eos minima nisi sint culpa odio aperiam pariatur id
+        distinctio sit, optio quibusdam? Alias, minima eligendi. Maxime deleniti doloremque ullam dolores repellendus
+        autem explicabo quidem nam ut excepturi! In odio aliquid error ab a adipisci sapiente illum porro dignissimos
+        facere impedit nam, vitae hic officia veritatis neque at ipsum atque consequatur mollitia! Culpa facere at minus
+        repellendus est, nam labore enim consequuntur praesentium, suscipit maiores itaque nisi tempora minima possimus
+        quasi rerum iure deleniti ut! Voluptatum deleniti et a sequi minima error non vero, enim corporis dignissimos
+        ipsam amet itaque in atque omnis iste magni? Ullam quod modi ea ipsa quibusdam laborum, aut deleniti suscipit
+        repellendus nobis aspernatur non libero tenetur eligendi iusto maiores ipsum sunt explicabo dolorum atque autem?
+        Cum, id libero error earum repellendus tenetur consequuntur fugit! Error quisquam eaque, ea voluptatum illo id
+        provident quos amet. Amet odio labore sed eveniet rem praesentium fugiat? Quae sapiente recusandae, aut quis
+        quos consequatur in cum itaque nam similique consequuntur aliquid veritatis dolorum odit. Amet vitae
+        reprehenderit labore.</h1>
+
+
+    <!-- ------------------------------------------- NAVIGATION BAR END----------------------------------------------- -->
+
+
+
+    <script>
+        var burger = document.querySelector(".burger");
+        var secoundpart = document.querySelector(".secoundpart")
+        var navbar = document.querySelector(".navbar");
+        burger.addEventListener("click", function () {
+            secoundpart.classList.toggle("secoundpart-active");
+            // secoundpart.classList.toggle("v-resp");
+            // secoundpart.classList.toggle("v-down-resp")
+
+
+        });
+    </script>
+
+
+</body>
+
+</html>
